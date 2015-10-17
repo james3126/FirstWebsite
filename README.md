@@ -5,4 +5,3 @@ Woo, this is finally my introduction to github. I want to make a website.
 
 Lets do this.
 
-#ThankNiallForTheIdea
