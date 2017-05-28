@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<header>
+	
+		<h1>A list of insults, for the faggots in your life!</h1>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+	</header>
+
+	<body>
+		<br>
+		<p1>Scroll through the great list of insults!</p1>
+		<br>
+		<br>
+		<div style="width: 1000px; height: 1000px;">
+			<embed src=insults.txt height="75%" width="75%">
+		</div>
+		<br>
+		<div>
+			<button type="button" onclick="alert('Hello World!')">Click Me - Popup box test!</button>
+		</div>
+		<br>
+		<div style="width: 500px; height: 500px;">
+			<form action="comment_processing.php" autocomplete="on" method="post">
+				<fieldset>
+					<legend>Post a comment: </legend>
+					First name:<br>
+					<input type="text" name="firstname" maxlength="20" placeholder="First name" required>
+					<br>
+					Last name:<br>
+					<input type="text" name="lastname" maxlength="20" placeholder="Last name" required>
+					<br>
+					E-Mail (optional):<br>
+					<input type="email" name="email" maxlength="40" placeholder="email@subdomain.domain">
+					<br>
+					Leave your comment here:	(Max 100 characters)
+					<textarea name="comment" rows="6" cols="50" maxlength="100" placeholder="Type your comment here" required></textarea>
+					<br>
+					<br>
+					<div class="g-recaptcha" data-sitekey="6LdaSBgTAAAAAKhFXqnZLbmLuyd1ADNhlHVcNvEq"></div>
+					<br>
+					<br>
+					<input type="submit" value="Submit">
+				</fieldset>
+			</form>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div style="width: 1000px; height: 500px;">
+			<embed src=output.txt height="100%" width="100%">
+		</div>
+	</body>
+	
+ 
+</html>
+
